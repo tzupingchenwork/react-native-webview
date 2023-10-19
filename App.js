@@ -4,17 +4,9 @@ import WebView from 'react-native-webview';
 
 export default function App() {
   return (
-    // <View style={styles.container}>
-    //   <Text>Open up App.js to start working on your app!</Text>
-    //   <StatusBar style="auto" />
-    // </View>
-    // <SafeAreaView style={styles.container}>
-
-    // </SafeAreaView>
-
     <View style={styles.container}>
       <StatusBar style="auto" />
-      <WebView source={{ uri: 'http://192.168.12.249:9527/iflood/' }} style={styles.webview} />
+      <WebView source={{ uri: 'https://www.alpha-explorer.club/' }} style={styles.webview} />
     </View>
   );
 }
